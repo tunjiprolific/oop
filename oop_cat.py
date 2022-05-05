@@ -1,6 +1,6 @@
 class cat:
     __mood = 10
-    hungry = 10
+    __hungry = 10
     energy = 10
 
     def __meow(self):
@@ -9,6 +9,8 @@ class cat:
     def get_mood(self):
         return self.__mood
 
+    def get_hunger(self):
+        return self.__hungry
 
     def sleep(self):
         self.energy += 1
@@ -27,5 +29,6 @@ class cat:
 
 billy = cat()
 print(billy.get_mood())
+print(billy.get_hunger())
 billy.play()
 
