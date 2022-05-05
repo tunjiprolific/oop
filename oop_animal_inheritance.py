@@ -7,6 +7,9 @@ class animal:
     def __init__(self, name="john doe"):
         self.name = name
 
+    def set_can_be_pet(self, can_be_pet: bool):
+        self.can_be_pet = can_be_pet
+
     def set_no_of_legs(self, no_of_legs=2):
         self.__no_of_legs = no_of_legs
 
@@ -51,6 +54,7 @@ class fish(animal):
 
 bad_wolf = wolf("Tammy")
 bad_wolf.set_no_of_legs(4)
+bad_wolf.set_can_be_pet(False)
 print(bad_wolf.get_no_of_legs())
 bad_wolf.eat()
 bad_wolf.walk()
