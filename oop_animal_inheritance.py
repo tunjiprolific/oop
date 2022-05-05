@@ -52,7 +52,7 @@ class fish(animal):
     def walk(self):
         print(f'oops, i am a fish, i cannot walk')
 
-bad_wolf = wolf("Tammy")
+bad_wolf = wolf("Tricia")
 bad_wolf.set_no_of_legs(4)
 bad_wolf.set_can_be_pet(False)
 print(bad_wolf.get_no_of_legs())
