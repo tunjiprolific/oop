@@ -4,7 +4,7 @@ class animal:
     is_carnivore = False
     can_be_pet = False
 
-    def __init__(self, name="jane doe"):
+    def __init__(self, name="john doe"):
         self.name = name
 
     def set_can_be_pet(self, can_be_pet: bool):
